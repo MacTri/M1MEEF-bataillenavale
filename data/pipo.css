@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(90, 233, 126);
+}
+
+form {
+    border: solid black 1px;
+    display: inline-block;
+    transition: transform .5s, background-color 1s;
+}
+
+form:hover {
+    transform: scale(1.2);
+    background-color: lightgrey;
+}
+
+form > label {
+    display: block;
+    text-align: end;
+    margin: 2px; 
+}
